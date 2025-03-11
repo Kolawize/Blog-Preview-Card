@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Figtree;
+    background-color: hsl(47, 88%, 63%);
+    flex-direction: column;
+    position: relative;
+}
+
+@font-face {
+    font-family: 'Figtree';
+    src: url('./assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900; /* Variable font supports multiple weights */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Figtree';
+    src: url('./assets/fonts/Figtree-Italic-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Figtree';
+    src: url('./assets/fonts/static/Figtree-ExtraBold.ttf') format('truetype');
+    font-weight: 800; /* Static font, fixed weight */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Figtree';
+    src: url('./assets/fonts/static/Figtree-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px 0px hsl(0, 0%, 7%);
+}
+
+.banner{
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.profile{
+    display: flex;
+}
+
+.propic{
+    padding-right: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 20px; /* Adjust this if needed */
+    text-align: center;
+    font-size: 14px; 
+}
+    
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+p{
+    color: hsl(0, 0%, 42%);
+    font-size: 16px;
+}
+
+.bold{
+    font-weight: 800;
+    color: hsl(0, 0%, 7%);
+    font-size: 16px;
+    transition: 0.25s ease-in-out;
+}
+
+.bold:hover{
+    color: hsl(47, 88%, 63%);
+}
+
+.highlight{
+    background-color: hsl(47, 88%, 63%);
+    width: fit-content;
+    padding: 5px;
+    font-weight: 800;
+    border-radius: 5px;
+    color: hsl(0, 0%, 7%);
+    font-size: 16px;
+}
+
+.date{
+    color: hsl(0, 0%, 7%);
+    font-weight: 600;
+}
